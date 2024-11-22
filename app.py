@@ -35,7 +35,7 @@ def input_image_setup(uploaded_file):
         ]
         return image_parts
     else:
-        raise FileNotFoundError("file upload chey ra osaravalli na kodaka")
+        raise FileNotFoundError("Image file is not uploaded")
 
 
 ## initialize our streamlit
